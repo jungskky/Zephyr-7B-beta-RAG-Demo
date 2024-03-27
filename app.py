@@ -11,7 +11,8 @@ import gradio as gr
 
 
 # local_llm = "zephyr-7b-beta.Q5_K_S.gguf"
-local_llm = "/content/drive/MyDrive/notebook/training_results/zephyr_kr_1500step"
+# local_llm = "/content/drive/MyDrive/notebook/training_results/zephyr_kr_1500step"
+local_llm = "TheBloke/zephyr-7B-beta-GGUF"
 
 config = {
 'max_new_tokens': 1024,
