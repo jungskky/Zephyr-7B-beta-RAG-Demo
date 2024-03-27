@@ -10,7 +10,8 @@ from langchain.document_loaders import PyPDFLoader
 import gradio as gr
 
 
-local_llm = "zephyr-7b-beta.Q5_K_S.gguf"
+# local_llm = "zephyr-7b-beta.Q5_K_S.gguf"
+local_llm = "/content/drive/MyDrive/notebook/training_results/zephyr_kr_1500step"
 
 config = {
 'max_new_tokens': 1024,
